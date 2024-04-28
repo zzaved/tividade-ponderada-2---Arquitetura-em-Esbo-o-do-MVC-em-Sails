@@ -66,6 +66,7 @@
 Todos esses itens são necessários para uma boa dinâmica da plataforma e funcionam entre si por necessitarem principalmente de um ID de usuário para atribuir funções e relacionar atividades. 
 
 <br>
+
 ## Controladores (Controllers):
 • Login do Usuário, tendo como responsabilidades "Verificar" (para verificar se aquele sistema de login já existe, e se sim, logar na conta) e "Cadastrar" (para usuários que não estão cadastrados ainda) um usuário específico na nossa plataforma. Esse controlador é ligado a View "Login", e para interagir com o Model chamado "User" irá criar um ID específico para aquele usuário e precisará receber como atributo nome, e-mail, senha, idade, local, gênero, e irá gerar uma pontuação e um ponto de customização para aquele usuário, já que a nossa plataforma terá uma dinâmica de personalizar um carangueijo.
 <br>
